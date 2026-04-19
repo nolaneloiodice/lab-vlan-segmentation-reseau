@@ -60,7 +60,7 @@ Les deux machines peuvent communiquer :
 ### Après configuration des VLAN
 Les deux machines ne peuvent plus communiquer malgré leur connexion au même switch :
 
-![Ping après VLAN](test-ping-après-vlan.png)
+![Ping après VLAN](test-ping-apres-vlan.png)
 
 ---
 
