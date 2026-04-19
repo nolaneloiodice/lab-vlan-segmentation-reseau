@@ -19,6 +19,10 @@ Mettre en place une segmentation réseau à l'aide de VLAN sur un switch afin d'
 - PC-Client-1 : 192.168.1.10 /24
 - PC-Client-2 : 192.168.1.20 /24
 
+#Le /24 correspond au masque de sous-réseau 255.255.255.0.
+Cela signifie que les trois premiers octets représentent le réseau et le dernier l’hôte.
+Ainsi, 192.168.1.10/24 et 192.168.1.20/24 appartiennent au même réseau.
+
 ---
 
 ## ⚙️ Configuration du switch (CLI)
